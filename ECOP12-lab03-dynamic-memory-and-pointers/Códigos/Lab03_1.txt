@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "time.h"
+
+
+
+int main(){
+    int valor, i;
+    int *v;
+
+    printf("Digite o tamanho do vetor: ");
+    scanf("%d", &valor);
+    v = (int*) malloc(valor * sizeof(int));
+
+    for(i=0; i<valor; i++){
+        v[i] = rand()%100;
+        printf("%d = %d\n", i, v[i]);
+    }
+
+    printf("\n");
+    free(v);
+    return 0;
+}

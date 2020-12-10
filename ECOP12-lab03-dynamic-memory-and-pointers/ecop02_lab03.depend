@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1566390408 source:c:\users\yuri cristhian\documents\ecop02_lab03\main.c
+	<stdio.h>
+	<stdlib.h>
+	"time.h"
+

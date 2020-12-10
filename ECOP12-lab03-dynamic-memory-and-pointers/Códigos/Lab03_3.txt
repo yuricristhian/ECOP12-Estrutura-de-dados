@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+ typedef struct{
+        char nome[20];
+        char autor[20];
+        int ano;
+        char edit[30];
+        char clas[30];
+}st_livros;
+
+
+int main(){
+
+    int i;
+
+    st_livros *book = (st_livros *) malloc(2 * sizeof(st_livros));
+
+    for(i=0; i<2; i++){
+        printf("Nome do livro: ");
+        scanf("%s", book[i].nome);
+
+        printf("\n Autor: ");
+        scanf("%s", book[i].autor);
+
+        printf("\n Ano de lancamento: ");
+        scanf("%d", &book[i].ano);
+
+        printf("\n Editora: ");
+        scanf("%s", book[i].edit);
+
+        printf("\n Classificacao: ");
+        scanf("%s", book[i].clas);
+
+        system("cls");
+    }
+
+    for(i=0; i<2; i++){
+        printf("Livro: %s \n Autor: %s \n Ano: %d \n Editora: %s \n Classificacao: %s \n\n", book[i].nome, book[i].autor, book[i].ano, book[i].edit, book[i].clas);
+    }
+
+    free(book);
+
+    printf("\n");
+    return 0;
+}

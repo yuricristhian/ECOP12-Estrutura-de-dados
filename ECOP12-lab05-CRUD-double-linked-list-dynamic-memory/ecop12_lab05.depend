@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1568200683 source:c:\users\yuri cristhian\documents\unifei\8° período\ecop12 - laboratório de estrutura de dados\ecop12_lab05\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
