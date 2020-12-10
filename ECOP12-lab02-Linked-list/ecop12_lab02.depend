@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1566564896 source:c:\users\yuri cristhian\downloads\ecop12_lab02\main.c
+	"stdio.h"
+	"listaEncadeada.h"
+
+1566564514 c:\users\yuri cristhian\downloads\ecop12_lab02\listaencadeada.h
+
+1566565081 source:c:\users\yuri cristhian\downloads\ecop12_lab02\listaencadeada.c
+	<stdio.h>
+	<string.h>
+	"listaEncadeada.h"
+
+1566550680 source:c:\users\yuri cristhian\documents\unifei\ecop12 - laboratório de estrutura de dados-20201206t225139z-001\ecop12 - laboratório de estrutura de dados\ecop12_lab02\listaencadeada.c
+	<stdio.h>
+	<string.h>
+	"listaEncadeada.h"
+
+1566550114 c:\users\yuri cristhian\documents\unifei\ecop12 - laboratório de estrutura de dados-20201206t225139z-001\ecop12 - laboratório de estrutura de dados\ecop12_lab02\listaencadeada.h
+
+1566550496 source:c:\users\yuri cristhian\documents\unifei\ecop12 - laboratório de estrutura de dados-20201206t225139z-001\ecop12 - laboratório de estrutura de dados\ecop12_lab02\main.c
+	"stdio.h"
+	"listaEncadeada.h"
+
